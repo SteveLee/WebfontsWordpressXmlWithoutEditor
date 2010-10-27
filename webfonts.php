@@ -251,7 +251,7 @@ function wfs_selector_list(){
 				<td>'.$SelectorTag.'</td>
 				<td>'.$fontsArr[0].'</td>
 				<td><span class="wfs_selectors" style="font-size:26px;font-family:'.$fontsArr[3].'" id="fontid_'.$count.'">'.$fontsArr[1].'</span></td>
-				<td><a href="admin.php?page=wfs_options&func=selector_act&pid='.$_POST['pid'].'&sid='.$SelectorID.'" onclick="return confirm(\'Are you sure want to detlete selector '.$SelectorTag.'?\');">Remove</a><input type="hidden" name="selector_'.$count.'"  id="selector_'.$count.'" value="'.$SelectorID.'" />
+				<td><a href="admin.php?page=wfs_options&func=selector_act&pid='.$_POST['pid'].'&sid='.$SelectorID.'" onclick="return confirm(\'Are you sure want to delete selector '.$SelectorTag.'?\');">Remove</a><input type="hidden" name="selector_'.$count.'"  id="selector_'.$count.'" value="'.$SelectorID.'" />
 				</td>
 			</tr>';
 			$count++;
@@ -329,7 +329,7 @@ function wfs_selector_list_pagination(){
 				<td>'.$SelectorTag.'</td>
 				<td>'.$fontsArr[0].'</td>
 				<td><span class="wfs_selectors" style="font-size:26px;font-family:'.$fontsArr[3].'" id="fontid_'.$count.'">'.$fontsArr[1].'</span></td>
-				<td><a href="admin.php?page=wfs_options&func=selector_act&pid='.$_POST['pid'].'&sid='.$SelectorID.'" onclick="return confirm(\'Are you sure want to detlete selector '.$SelectorTag.'?\');">Remove</a><input type="hidden" name="selector_'.$count.'"  id="selector_'.$count.'" value="'.$SelectorID.'" />
+				<td><a href="admin.php?page=wfs_options&func=selector_act&pid='.$_POST['pid'].'&sid='.$SelectorID.'" onclick="return confirm(\'Are you sure want to delete selector '.$SelectorTag.'?\');">Remove</a><input type="hidden" name="selector_'.$count.'"  id="selector_'.$count.'" value="'.$SelectorID.'" />
 				</td>
 			</tr>';
 			$count++;
@@ -396,7 +396,7 @@ function wfs_domain_list(){
 			
 			$output.='<tr style="height:40px;">
 				<td><a href="http://'.$domainName.'" target="_blank">'.$domainName.'</a></td>
-				<td><a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'&dname='.$domainName.'&mode=edit"  >Edit</a>&nbsp;|&nbsp;<a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'" onclick="return confirm(\'Are you sure want to detlete selector '.$domainName.'?\');" >Remove</a></td>				
+				<td><a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'&dname='.$domainName.'&mode=edit"  >Edit</a>&nbsp;|&nbsp;<a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'" onclick="return confirm(\'Are you sure want to delete selector '.$domainName.'?\');" >Remove</a></td>				
 			</tr>';
 			$count++;
 		}
@@ -469,7 +469,7 @@ function wfs_domain_list_pagination(){
 			
 			$output.='<tr style="height:40px;">
 				<td><a href="http://'.$domainName.'" target="_blank">'.$domainName.'</a></td>
-				<td><a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'&dname='.$domainName.'&mode=edit"  >Edit</a>&nbsp;|&nbsp;<a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'" onclick="return confirm(\'Are you sure want to detlete selector '.$domainName.'?\');" >Remove</a></td>				
+				<td><a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'&dname='.$domainName.'&mode=edit"  >Edit</a>&nbsp;|&nbsp;<a href="admin.php?page=wfs_options&func=domain_act&pid='.$pid.'&did='.$domainID.'" onclick="return confirm(\'Are you sure want to delete selector '.$domainName.'?\');" >Remove</a></td>				
 			</tr>';
 			$count++;
 		}

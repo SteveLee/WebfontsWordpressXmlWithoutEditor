@@ -501,7 +501,7 @@ function wfs_project_configure(){
                                 <td><?php echo $SelectorTag; ?></td>
                                 <td><?php echo $fontsArr[0]; ?></td>
                                 <td><span class="wfs_selectors" style="font-size:26px;font-family:<?php echo $fontsArr[3]; ?>" id="fontid_<?php echo $count;?>"><?php echo $fontsArr[1]?></span></td>
-                                <td><a href="admin.php?page=wfs_options&func=selector_act&pid=<?php echo $pid; ?>&sid=<?php echo $SelectorID ?>" onclick="return confirm('Are you sure want to detlete selector <?php echo $SelectorTag; ?>?');" >Remove</a><input type="hidden" id="selector_<?php echo $count?>" name="selector_<?php echo $count?>" value="<?php echo $SelectorID; ?>" />
+                                <td><a href="admin.php?page=wfs_options&func=selector_act&pid=<?php echo $pid; ?>&sid=<?php echo $SelectorID ?>" onclick="return confirm('Are you sure want to delete selector <?php echo $SelectorTag; ?>?');" >Remove</a><input type="hidden" id="selector_<?php echo $count?>" name="selector_<?php echo $count?>" value="<?php echo $SelectorID; ?>" />
                                 </td>
                             </tr>
 							<?php
