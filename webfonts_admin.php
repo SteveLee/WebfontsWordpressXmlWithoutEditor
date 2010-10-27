@@ -91,7 +91,7 @@ Select: <a href="javascript:;" class="selectAll"><?php _e('All'); ?></a>, <a hre
 <div id="poststuff">
 <div class="meta-box-sortables ui-sortable">
 <div class="postbox closed">
-	<h3 id="wfs_importProject"  style="cursor:pointer;"><span ><?php _e('Imports Projects'); ?></span><span style="display: block;" class=""></span></h3>
+	<h3 id="wfs_importProject"  style="cursor:pointer;"><span ><?php _e('Import Projects'); ?></span><span style="display: block;" class=""></span></h3>
 	
     <div class="inside" >
     	<div id="imp_prj">
