@@ -403,7 +403,7 @@ function wfs_project_configure(){
                   <span><strong><?php _e('Please select the option to be used'); ?></strong></span>
                      <div class="clear"></div>
                   <div class="wfs_visible">
-                    <label for="javscript"><input type="radio" id="javscript" name="source_selection"<?php echo ($result->project_options == 0)?'checked="checked"':''; ?>  value="0"/>&nbsp;&nbsp;Javscript</label><br />
+                    <label for="javscript"><input type="radio" id="javscript" name="source_selection"<?php echo ($result->project_options == 0)?'checked="checked"':''; ?>  value="0"/>&nbsp;&nbsp;Javascript</label><br />
                     <label for="stylesheet"><input type="radio" id="stylesheet" name="source_selection" <?php echo ($result->project_options == 1)?'checked="checked"':''; ?>  value="1" />&nbsp;&nbsp;Stylesheet</label>
                   </div>
                 </div>
@@ -608,7 +608,7 @@ function wfs_project_configure(){
 									//for($i=0;$i< count($wfs_selector);$i++){
 									foreach($wfs_selector as $selector){
 										if(($i%2)==0){$class = "even";}else{$class = "odd";}
-										$link = in_array($selector,$wfsSelectorTag)?'Added to webfonts':'<a href="javascript:void(0);" id="'.urlencode($selector).'" class="addtowebfonts">Add to webfonts</a>';
+										$link = in_array($selector,$wfsSelectorTag)?'Added to webfonts':'<a href="javascript:void(0);" id="'.$selector.'" class="addtowebfonts">Add to webfonts</a>';
 										echo '<div class="wfs_row '.$class.'">
 												<div class="wfs_existing_selector">'.$selector.'</div>';
 										echo '<div class="wfs_existing_selector_link" id="addFonts_'.$i.'">'.$link.'</div>
