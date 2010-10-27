@@ -1,0 +1,221 @@
+/*
+Copyright 2010 Monotype Imaging Inc.  
+This program is distributed under the terms of the GNU General Public License
+*/
+#wfs-actions {
+float:left;
+margin:2px 0px 0;
+min-width:130px;
+position:relative;
+}
+#wfs-actions .slide-down{
+-moz-border-radius:12px 12px 0 0;
+-webkit-border-radius:12px 12px 0 0;
+border-bottom:medium none;
+}
+.wfs_tabContainer div {
+font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif !important;
+}
+#wfs-first {
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-style:solid;
+border-width:1px;
+line-height:15px;
+padding:3px 30px 4px 12px;
+border-color:#C0C0C0;
+}
+#wfs-inside {
+-moz-border-radius:0 0 12px 12px;
+-webkit-border-radius:0 0 12px 12px;
+background-color:#FFFFFF;
+border-color:#C0C0C0;
+border-style:solid;
+border-width:1px;
+display:none;
+margin:0;
+padding:2px 1px;
+position:absolute;
+z-index:11;
+}
+#wfs-actions a {
+display:block;
+font-size:11px;
+text-decoration:none;
+}
+#wfs-inside a {
+padding:3px 5px 3px 10px;
+}
+#wfs-toggle {
+height:22px;
+position:absolute;
+right:0;
+top:1px;
+width:28px;
+background:transparent url(../../../../wp-admin/images/fav-arrow.gif) no-repeat scroll 0 -4px;
+}
+#wfs-actions .slide-down {
+
+border-bottom:medium none;
+}
+.wfs_action_button
+{background:transparent none repeat scroll 0 0 !important;
+border:medium none !important;
+overflow:visible;
+padding:0 !important;
+}
+.wfs-action input {
+cursor:pointer;
+text-align:left;
+width:106px;
+}
+.wfs_web_logo{
+	margin-top:17px;
+}
+.wfs_right_link{
+float:right;	
+	}
+.wfs_row{
+
+	clear:both;
+	padding-top:12px;
+	padding-left:10px;
+}
+.wfs_row label
+{
+	display:block;
+	float:left;
+	width:150px;
+	color:#666;
+	line-height:2em;
+}
+.clear
+{
+	clear:both;
+	margin-bottom:10px;
+}
+.wfs_day_row
+{
+	background:#f1f1f1;
+	padding:5px;
+	border:1px solid #eee;
+	clear:both;
+}
+.wfs_info_text
+{
+	font-size:11px;
+	color:#777
+}
+.wfs_margin{
+	margin:10px !important;
+	}
+	h3
+	{
+		position:relative;
+	}
+h3 span.wfs_arrowhead
+{
+	position:absolute;
+	display:block;
+	background:url(../../../../wp-admin/images/menu-bits.gif) no-repeat left -111px;
+	height:25px;
+	width:17px;
+	right:10px;
+	top:0;
+}
+.wfs_tabNav, .wfs_tabNav2{
+	border-bottom:1px solid #ddd;
+	height:28px;
+	padding-left:10px;
+	}
+ul.wfs_tabNav li, ul.wfs_tabNav2 li
+{
+	float:left;
+	display:block;
+	list-style-type:none;
+	background:none;
+	padding:0;
+	margin:0;
+
+	
+}
+ul.wfs_tabNav li a, ul.wfs_tabNav2 li a {
+	float:left;
+	display:block;
+	padding:5px 15px 5px 15px;
+	border:1px solid #ddd;
+	background:#f1f1f1 url(../images/tab_bg.gif) repeat-x;
+	border-bottom:none;
+	text-decoration:none;
+	margin-right:6px;
+	font-size:12px;
+	color:#999;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-border-radius:7px 7px 0px 0px;
+	text-shadow:0px 1px 0px #fff }  
+ul.wfs_tabNav li.wfs_current a, ul.wfs_tabNav li a:hover, ul.wfs_tabNav2 li.wfs_current a, ul.wfs_tabNav2 li a:hover {float:left;
+background:url(../images/tab_hover_bg.gif) repeat-x;
+	color:#444;
+	padding:5px 15px 6px 15px; }  
+div.wfs_tabContainer div.wfs_tab { display: none; }
+div.wfs_tabContainer div.wfs_current { display: block; }  
+.wfs_visible label{
+	line-height:2.2em;
+	}
+#wfs_display_editor{
+	margin-top:10px;
+	padding:10px;
+	padding-top:20px;
+	border-collapse:separate;
+border-style:solid;
+	}
+.font_sep
+{
+	padding:20px 0 20px 0;
+	/*border-bottom:1px dashed #D9EAF5;*/
+	
+	width:98.8%;
+}
+.font_img
+{
+	padding-bottom:2px;
+}.even
+{
+	background-color:#f9f9f9;
+	padding:5px;
+	border-bottom:1px solid #DFDFDF;
+	border-top:1px solid #DFDFDF;
+}
+.odd
+{
+	padding:5px;
+	background:#fbfbfb;
+}
+.even:hover, .odd:hover
+{
+	background:#e7e7e7;
+}
+.wfs_existing_selector{
+	padding:5px 0 5px 0;
+	width:50%;
+	float:left;
+	}
+.wfs_existing_selector_link{
+	padding:5px 0 5px 0;
+}
+.currClass{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000 !important;
+	
+	}
+.wfs_class{
+	border: 1px solid #CCC;
+	padding:2px;
+	background-color:#F5F5F5;
+	}
+.pagination_div{
+	text-align:center;
+	margin-top:10px;
+	}
