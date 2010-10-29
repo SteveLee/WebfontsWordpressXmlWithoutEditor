@@ -262,7 +262,7 @@ function wfs_project_action(){
 				break;
 			case "sync":
 				//Fetching the xml data from WFS
-				$apiurl = "xml/Projects/?wfspstart=0&wfsplimit=".PROJECT_LIMIT;
+				$apiurl = "xml/Projects/";
 				$wfs_api = new Services_WFS($wfs_public_key,$wfs_private_key,$apiurl);
 				$xmlUrl = $wfs_api->wfs_getInfo_post();
 				//creating a DOM object
