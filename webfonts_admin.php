@@ -212,7 +212,7 @@ global $wfs_usertype;
                 
                  <div class="wfs_row" id="token_div" >
                  <?php $api_key = get_option('webfonts_public_key','').'--'.get_option('webfonts_private_key','')?>
-                    <input type="text" maxlength="256" name="webfonts_api_token" id="webfonts_api_token" value="<?php echo $api_key;?>" size="145" />
+                    <input type="text" maxlength="256" name="webfonts_api_token" id="webfonts_api_token" value="<?php echo $api_key;?>" size="125" />
                  </div>
                  <div class="wfs_row wfs_margin" >
                     <a href="<?php echo SIGNUPURI; ?>" target="_blank" class="button-secondary"><?php _e('Sign Up'); ?></a>&nbsp;&nbsp;<a href="<?php echo GETKEYURI; ?>" target="_blank" class="button-secondary"><?php _e('Get Authentication Token Key'); ?></a>
